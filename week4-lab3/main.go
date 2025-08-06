@@ -40,7 +40,7 @@ func main() {
 	students = append(students, newStudent)
 
 	for i, student := range students {
-		fmt.Printf("%d Honor = %v\n", i, student.IsHonors())
+		fmt.Printf("%d Honor =%v\n", i, student.IsHonors())
 		fmt.Printf("%d Validation = %v\n", i, student.Validate())
 	}
 
