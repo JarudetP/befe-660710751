@@ -17,6 +17,6 @@ func main() {
 	if err != nil {
 		fmt.Println("Error", err)
 	}
-	fmt.Println("Result = ", result)
+	fmt.Println("Result =", result)
 
 }
