@@ -14,6 +14,6 @@ func main() {
 
 	firstName, lastname := "Jarudet", "Prungprechskun"
 
-	fmt.Printf("Name%s %s, age %d, email %s, gpa %.2f\n", firstName, lastname, age, email, gpa)
+	fmt.Printf("Name %s %s, age %d, email %s, gpa %.2f\n", firstName, lastname, age, email, gpa)
 
 }
